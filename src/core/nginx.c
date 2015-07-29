@@ -219,7 +219,7 @@ main(int argc, char *const *argv)
     }
 
     if (ngx_show_version) {
-        ngx_write_stderr("Tengine version: " TENGINE_VER " (" NGINX_VER ")"
+        ngx_write_stderr("Moss version: " TENGINE_VER " (" NGINX_VER ")"
                          NGX_LINEFEED);
 
         if (ngx_show_help) {
