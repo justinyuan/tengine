@@ -1,4 +1,14 @@
+Moss:
+======
+Moss is MOKO!'s web server which is based on Tengine(tengine.taobao.org)
 
+Usage:
+packages/rpm contains spec file to build rpm for CentOS/RHEL(SUSE removed)
+
+yum.moko.idc contains prebuild rpms（jemalloc is required because I’ve predefined --with--jemalloc
+
+Tengine:
+============
 Introduction [![Build Status](https://travis-ci.org/alibaba/tengine.svg?branch=master)](https://travis-ci.org/alibaba/tengine)
 ============
 
